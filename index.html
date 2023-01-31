@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STARS WARS SEARCHBAR</title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+  <div>
+    <video autoplay loop id="bgVideo">
+      <source src="./edited.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="content">
+    <div id="music-button">
+      <button id="play-button" class="button"></button>
+      <button id="pause-button" style="display: none;" class="pause-button"></button>
+    </div>
+    <div id="logo">
+      <img src="./star-wars.png" alt="star-wars-logo">
+    </div>
+    <div id="search-bar">
+      <input id="query" type="text" placeholder="Search Characters">
+      <div id="border"></div>
+      <div id="search-results"></div>
+    </div>
+  </div>
+</body>
+</html>
+<script src="./scripts/index.js"></script>

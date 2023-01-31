@@ -1,0 +1,100 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  max-height: 100%;
+}
+
+#content {
+  padding: 10px;
+  position: relative;
+  margin-top: 30px;
+  bottom: 0;
+  background: transparent;
+  color: #ebcf14;
+  width: 98%;
+}
+
+#music-button {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 95%;
+  width: 4%;
+  padding: 10px;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  background: transparent;
+  border-style: solid;
+  cursor: pointer;
+  border-width: 10px 0px 10px 20px;
+  border-color: transparent transparent transparent #ebcf14;
+}
+
+.pause-button {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-style: double;
+  background: transparent;
+  border-width: 0px 0px 0px 20px;
+  border-color: transparent #202020 transparent #ebcf14;
+}
+
+#div1 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 110px;
+}
+
+#div2 {
+  display: flex;
+  grid-gap: 30px;
+  justify-content: center;
+  margin-top:40px;
+}
+
+#div2>div {
+  border: 1px solid #ebcf14;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+p{
+  margin-top:20px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+  border: 1px solid #ebcf14;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:hover, #div2 div:hover{
+  border-color: #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#div3{
+  padding: 30px;
+  width: 10%;
+  align-items: center;
+  margin: auto;
+  margin-top:40px;
+}
